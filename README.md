@@ -12,7 +12,7 @@ function.
 
 `npm install` the dependencies.
 
-Run `npm dev` to start the server with `nodemon` on `localhost` port `5000`.
+Run `npm run dev` to start the server with `nodemon` on `localhost` port `5000`.
 
 ## "Resource Not Found" middleware
 
@@ -55,7 +55,7 @@ and middleware.
 
 In the middleware, log the error to the server console.
 
-Then, xtract the `statusCode` property on the error and set it as the status
+Then, extract the `statusCode` property on the error and set it as the status
 code for the response. If there is no `statusCode` property on the error caught
 by the error-handling middleware, then set the status code of the response to
 `500`.
